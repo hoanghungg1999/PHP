@@ -6,17 +6,16 @@
         public $ad_Name;
         public $ad_Email;
         public $ad_Address;
-        public $ad_Phonenumber;
+        // public $ad_Phonenumber;
         public $ad_Username;
         public $ad_Password;
         public $ad_Level;
 
-        public function __construct($name,$mail,$add,$phone,$pass)
+        public function __construct($name,$mail,$add,$pass)
         {
            $this->ad_Name = $name;
            $this->ad_Email = $mail;
            $this->ad_Address = $add;
-        //    $this->ad_Phonenumber = $phone;
            $this->ad_Password = $pass;
            $this->ad_Level = 0;
         }

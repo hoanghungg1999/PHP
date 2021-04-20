@@ -33,105 +33,96 @@
                 }
             }
         ?>
-        <div class="breadcrumb-area mt-30">
-            <div class="container">
-                <div class="breadcrumb">
-                    <ul class="d-flex align-items-center">
-                        <li><a href="index.php">Home</a></li>
-                        <li class="active"><a href="contact.php">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Container End -->
-        </div>
-        <!-- Breadcrumb End -->
-        <!-- Contact Email Area Start -->
-        <div class="contact-area ptb-100 ptb-sm-60">
-            <div class="container">
-                <h3 class="mb-20">Contact Us</h3>
-                <p class="text-capitalize mb-20">If you have any questions or problems need support please fill this form</p>
-                <form id="contact-form" class="contact-form" action="" method="post">
-                    <div class="address-wrapper row">
-                        <div class="col-md-12">
-                            <div class="address-fname">
-                                <input class="form-control" type="text" name="name" placeholder="Name">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="address-email">
-                                <input class="form-control" type="email" name="email" placeholder="Email">
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="address-textarea">
-                                <textarea name="message" class="form-control" placeholder="Write your message"></textarea>
-                            </div>
-                        </div>
-                    </div>
-                    <p class="form-message">
-                    <div class="footer-content mail-content clearfix">
-                        <div class="send-email float-md-right">
-                            <input value="Submit" class="return-customer-btn" name="btn_send" type="submit">
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-        <!-- Contact Email Area End -->      
-        <div class="support-area bdr-top">
-            <div class="container">
-                <div class="d-flex flex-wrap text-center">
-                    <div class="single-support">
-                        <div class="support-icon">
-                            <i class="lnr lnr-gift"></i>
-                        </div>
-                        <div class="support-desc">
-                            <h6>Great Value</h6>
-                            <span>We guarantee our price is good for you.</span>
-                        </div>
-                    </div>
-                    <div class="single-support">
-                        <div class="support-icon">
-                            <i class="lnr lnr-rocket"></i>
-                        </div>
-                        <div class="support-desc">
-                            <h6>Time Saving</h6>
-                            <span>We bring you important infomation you interest for saving yout precious time.</span>
-                        </div>
-                    </div>
-                    <div class="single-support">
-                        <div class="support-icon">
-                           <i class="lnr lnr-lock"></i>
-                        </div>
-                        <div class="support-desc">
-                            <h6>Safe & Warranty</h6>
-                            <span>We guarantee your automobile always in The best condition.</span>
-                        </div>
-                    </div>
-                    <div class="single-support">
-                        <div class="support-icon">
-                           <i class="lnr lnr-enter-down"></i>
-                        </div>
-                        <div class="support-desc">
-                            <h6>Shop Confidence</h6>
-                            <span>With over 30 years on car business we is your best choice.</span>
-                        </div>
-                    </div>
-                    <div class="single-support">
-                        <div class="support-icon">
-                           <i class="lnr lnr-users"></i>
-                        </div>
-                        <div class="support-desc">
-                            <h6>24/7 Help Center</h6>
-                            <span>Support you any time.</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="breadcrumbs">
+		<div class="container">
+			<ol class="breadcrumb breadcrumb1 animated wow slideInLeft animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: slideInLeft;">
+				<li><a href="index.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+				<li class="active">Contact</li>
+			</ol>
+		</div>
+	</div>
+<div class="contact">
+			<div class="container">
+				<h3>Contact</h3>
+				
+				<div class="contact-grids">
+					<div class="contact-form">
+							<form action="#" method="post">
+								<div class="contact-bottom">
+									<div class="col-md-4 in-contact">
+										<span>Name</span>
+										<input type="text" name="name">
+									</div>
+									<div class="col-md-4 in-contact">
+										<span>Email</span>
+										<input type="text" name="email" >
+									</div>
+									<div class="col-md-4 in-contact">
+										<span>Phonenumber</span>
+										<input type="text" name="phonenumber">
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+							
+								<div class="contact-bottom-top">
+									<span>Message</span>
+									<textarea  name="message"> </textarea>								
+									</div>
+								<input type="submit" value="Send">
+							</form>
+						</div>
+				<div class="address">
+					<div class=" address-more">
+						<h2>Address</h2>
+						<div class="col-md-4 address-grid">
+							<i class="glyphicon glyphicon-map-marker"></i>
+							<div class="address1">
+								<p>Lorem ipsum dolor</p>
+								<p>TL 19034-88974</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="col-md-4 address-grid ">
+							<i class="glyphicon glyphicon-phone"></i>
+							<div class="address1">
+								<p>+885699655</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="col-md-4 address-grid ">
+							<i class="glyphicon glyphicon-envelope"></i>
+							<div class="address1">
+								<p><a href="mailto:@example.com"> @example.com</a></p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--//content-->
+<!--map-->
+	<div class="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279847.2716062404!2d145.46948275!3d-36.60289065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad4314b7e18954f%3A0x5a4efce2be829534!2sVictoria%2C+Australia!5e0!3m2!1sen!2sin!4v1443674224626" width="100%" height="" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
         <?php
             include_once('./footer.php');
         ?>
     </div>
 </body>
 </html>
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/responsiveslides.min.js"></script>
+   <script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+  </script>

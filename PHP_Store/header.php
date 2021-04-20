@@ -110,9 +110,9 @@
 									                   
 								</div>				
 							</li>
-							<li><a href="products.html">Products</a></li>
+							<li><a href="product.php">Products</a></li>
 							<li><a href="login.php">Sign In</a></li>
-							<li class="last"><a href="contact.html">Contact</a></li>
+							<li class="last"><a href="contact.php">Contact</a></li>
 						</ul>
 					 </div><!-- /.navbar-collapse -->
 				  

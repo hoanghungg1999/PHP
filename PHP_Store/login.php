@@ -25,7 +25,6 @@
                     foreach($data as $item){
                         
                         if($item['Level'] != 0){
-                            //echo $item['Level'];
                             echo  "<script>
                                     var id = ".$item['ID'].";
                                     var c_name ='User='
@@ -35,12 +34,7 @@
                                     var txt = 'User='+id+';expires='+expiresdate;
                                     document.cookie = c_name + id+';'+expiresdate
                                 </script>";
-                                // foreach ($_COOKIE as $key=>$val)
-                                // {
-                                //   echo $key.' is '.$val."<br>\n";
-                                // }
-                            
-                           
+                                
                             echo "<script type='text/javascript'> document.location = './SB_Admin/dashboard.php?id=".$item['ID']."'; </script>";
                         }else{
                             echo  "<script>
@@ -82,10 +76,10 @@
 					<input type="text" name="email"> 
 				
 					<span>Password</span>
-					<input type="password" name="password"> 
+					<input type="password" name="pass"> 
 					<div class="word-in">
 				  		<a class="forgot" href="#">Forgot Your Password?</a>
-				 		 <input type="submit" value="Login">
+				 		 <input type="submit" value="Login" name='btn_login' class="return-customer-btn">
 				  	</div>
 			    </form>
 			   </div>	

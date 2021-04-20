@@ -12,36 +12,36 @@
     <link rel="shortcut icon" href="../img\favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Fontawesome css -->
-    <link rel="stylesheet" href="../css\font-awesome.min.css">
+    <link rel="stylesheet" href="../css1\font-awesome.min.css">
     <!-- Ionicons css -->
-    <link rel="stylesheet" href="../css\ionicons.min.css">
+    <link rel="stylesheet" href="../css1\ionicons.min.css">
     <!-- linearicons css -->
-    <link rel="stylesheet" href="../css\linearicons.css">
+    <link rel="stylesheet" href="../css1\linearicons.css">
     <!-- Nice select css -->
-    <link rel="stylesheet" href="../css\nice-select.css">
+    <link rel="stylesheet" href="../css1\nice-select.css">
     <!-- Jquery fancybox css -->
-    <link rel="stylesheet" href="../css\jquery.fancybox.css">
+    <link rel="stylesheet" href="../css1\jquery.fancybox.css">
     <!-- Jquery ui price slider css -->
-    <link rel="stylesheet" href="../css\jquery-ui.min.css">
+    <link rel="stylesheet" href="../css1\jquery-ui.min.css">
     <!-- Meanmenu css -->
-    <link rel="stylesheet" href="../css\meanmenu.min.css">
+    <link rel="stylesheet" href="../css1\meanmenu.min.css">
     <!-- Nivo slider css -->
-    <link rel="stylesheet" href="../css\nivo-slider.css">
+    <link rel="stylesheet" href="../css1\nivo-slider.css">
     <!-- Owl carousel css -->
-    <link rel="stylesheet" href="../css\owl.carousel.min.css">
+    <link rel="stylesheet" href="../css1\owl.carousel.min.css">
     <!-- Bootstrap css -->
-    <link rel="stylesheet" href="../css\bootstrap.min.css">
+    <link rel="stylesheet" href="../css1\bootstrap.min.css">
     <!-- Custom css -->
-    <link rel="stylesheet" href="../css\default.css">
+    <link rel="stylesheet" href="../css1\default.css">
     <!-- Main css -->
     <link rel="stylesheet" href="../style.css">
     <!-- Responsive css -->
-    <link rel="stylesheet" href="../css\responsive.css">
+    <link rel="stylesheet" href="../css1\responsive.css">
     
     
     <title>The Car Company Dashboard</title>
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css1/bootstrap.min.css">
+    <link rel="stylesheet" href="../css1/bootstrap.css">
     <!-- Custom fonts for this template-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -49,7 +49,7 @@
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
-    <link href="../css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="../css1/sb-admin-2.min.css" rel="stylesheet">
     <?php
         function messagebox($message) {
             echo "<script>alert('$message');</script>";

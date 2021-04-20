@@ -1,12 +1,14 @@
 ﻿<!DOCTYPE html>
+
 <html lang="en">
 <?php
+ob_start();
 include_once('./head.php');
-require_once(__DIR__ . "/models/login_class.php")
+require_once(__DIR__. "/models/login_class.php");
 ?>
 
 <body>
-
+    
     <div class="wrapper">
         <?php
         include_once('./header.php');
@@ -34,7 +36,7 @@ require_once(__DIR__ . "/models/login_class.php")
             } elseif (strcmp($pass_1, $pass_2) != 0) {
                 messagebox('Password not match !');
             } else {
-                $register_cus = new Admin_Login($name, $email,$email, $address, $pass_1);
+                $register_cus = new Admin_Login($name, $email, $address, $pass_1);
                 $result = $register_cus->insert_customer();
                 if (!$result) {
                     header('Location: register.php?failure');

@@ -3,7 +3,7 @@
         protected static $connection;
         public function connnect(){
             if(!isset(self::$connection)){
-                self::$connection = new mysqli('localhost','root','','PHP');
+                self::$connection = new mysqli('localhost','root','root','PHP');
             }
             if(self::$connection==false){
                 return false;

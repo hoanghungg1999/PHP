@@ -100,7 +100,7 @@
 
         public static function new_arrival_list(){
             $db = new Db();
-            $sql = "SELECT * FROM product ORDER by ProductID DESC LIMIT 5";
+            $sql = "SELECT * FROM product ORDER by ProductID DESC LIMIT 4";
             $result = $db->select_to_aray($sql);
             return $result;
         }
