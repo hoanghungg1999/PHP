@@ -151,7 +151,7 @@
 	</div>
 </div>
         <!-- Arrivals Products Area Start Here -->
-        <div class="content">
+        <!-- <div class="content">
 	<div class="container">
 		<div class="content-top">
 			<div class="content-top1">
@@ -247,7 +247,7 @@
 			</div>			
 		</div>
 	</div>
-</div>
+</div> -->
 <!--//content-->
 	<div class="con-tp">
 		<div class="container">
